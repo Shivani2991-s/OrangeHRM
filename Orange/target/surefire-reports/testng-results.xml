@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14770" started-at="2021-05-31T21:15:10 IST" finished-at="2021-05-31T21:15:25 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="14770" started-at="2021-05-31T21:15:10 IST" finished-at="2021-05-31T21:15:25 IST">
+      <class name="TestCases.LoginTest_O">
+        <test-method status="PASS" signature="con()[pri:0, instance:TestCases.LoginTest_O@167e60c]" name="con" is-config="true" duration-ms="3" started-at="2021-05-31T21:15:10 IST" finished-at="2021-05-31T21:15:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- con -->
+        <test-method status="PASS" signature="invalid_login()[pri:1, instance:TestCases.LoginTest_O@167e60c]" name="invalid_login" duration-ms="2384" started-at="2021-05-31T21:15:16 IST" finished-at="2021-05-31T21:15:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_login -->
+        <test-method status="PASS" signature="valid_login()[pri:2, instance:TestCases.LoginTest_O@167e60c]" name="valid_login" duration-ms="7021" started-at="2021-05-31T21:15:18 IST" finished-at="2021-05-31T21:15:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valid_login -->
+      </class> <!-- TestCases.LoginTest_O -->
+      <class name="TestCases.ResetTest_O">
+        <test-method status="PASS" signature="launch()[pri:0, instance:TestCases.ResetTest_O@d1993a]" name="launch" is-config="true" duration-ms="22003" started-at="2021-05-31T21:14:48 IST" finished-at="2021-05-31T21:15:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="forgetpass()[pri:1, instance:TestCases.ResetTest_O@d1993a]" name="forgetpass" duration-ms="1270" started-at="2021-05-31T21:15:11 IST" finished-at="2021-05-31T21:15:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgetpass -->
+        <test-method status="PASS" signature="forgetpassSet()[pri:2, instance:TestCases.ResetTest_O@d1993a]" name="forgetpassSet" duration-ms="2509" started-at="2021-05-31T21:15:12 IST" finished-at="2021-05-31T21:15:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgetpassSet -->
+        <test-method status="PASS" signature="gback()[pri:3, instance:TestCases.ResetTest_O@d1993a]" name="gback" duration-ms="1328" started-at="2021-05-31T21:15:14 IST" finished-at="2021-05-31T21:15:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gback -->
+        <test-method status="PASS" signature="terminate()[pri:0, instance:TestCases.ResetTest_O@d1993a]" name="terminate" is-config="true" duration-ms="1" started-at="2021-05-31T21:15:25 IST" finished-at="2021-05-31T21:15:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- TestCases.ResetTest_O -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
